@@ -1,0 +1,10 @@
+{
+"manifest": "arweave/paths",
+"version": "0.1.0",
+"paths": {
+"index.html":{"id":"PigVNL0EjZS7E75xWDKDYJqML3sX8wPd8Mh7O1m7WiE"},
+"favicon.ico":{"id":"Owjn790zDSNPOdTV54QEsXISS1lQjeoj_xQdcjWAucU"},
+"assets/index.b0398d16.js":{"id":"AEwmQ1K73AP4VuFVlHI1JrqWzns7oDN6V4mmNvxPskA"}
+},
+"index":{"path":"index.html"}
+}
