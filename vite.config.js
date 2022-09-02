@@ -9,12 +9,12 @@ export default defineConfig({
   plugins: [
     // ↓ Needed for development mode
     !production &&
-      nodePolyfills({
-        include: [
-          "node_modules/**/*.js",
-          new RegExp("node_modules/.vite/.*js"),
-        ],
-      }),
+    nodePolyfills({
+      include: [
+        "node_modules/**/*.js",
+        new RegExp("node_modules/.vite/.*js"),
+      ],
+    }),
     vue(),
   ],
 
@@ -35,5 +35,4 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"), // map '@' to './src'
     },
   },
-  base: "./",
 });

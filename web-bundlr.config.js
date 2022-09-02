@@ -8,6 +8,7 @@ const WebBundlrConfig = {
   currency: "ethereum",
   wallet: process.env.WALLET,
   folderPath: "dist",
+  appType: "vite",
   config: {
     providerUrl: "https://rpc.ankr.com/eth_rinkeby",
   },
